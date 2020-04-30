@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T21:40:02.914Z'
+    - requestretry > lodash:
+        patched: '2020-04-30T21:40:02.914Z'
+    - sauce-connect-launcher > lodash:
+        patched: '2020-04-30T21:40:02.914Z'
+    - portfinder > async > lodash:
+        patched: '2020-04-30T21:40:02.914Z'
+    - sauce-connect-launcher > async > lodash:
+        patched: '2020-04-30T21:40:02.914Z'
+    - screener-ngrok > async > lodash:
+        patched: '2020-04-30T21:40:02.914Z'
